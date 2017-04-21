@@ -1,0 +1,37 @@
+$iconMenuMobile-color: black;
+
+.icon-menu-mobile {
+  cursor: pointer;
+
+  div {
+    width: 36px;
+    height: 5px;
+    background-color: $iconMenuMobile-color;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  &--opened {
+
+    div {
+
+      &:first-child {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+      }
+
+      &:nth-child(2) {
+        transform: scale(0);
+        opacity: 0;
+      }
+
+      &:last-child {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+        transform: rotate(45deg) translate(-9px, -8px) ;
+      }
+    }
+    // End div
+  }
+  // End &--opened
+}
+// End .icon-menu-mobile

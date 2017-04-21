@@ -1,0 +1,17 @@
+.icon-menu-mobile {
+  cursor: pointer; }
+  .icon-menu-mobile div {
+    width: 36px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    transition: 0.4s; }
+  .icon-menu-mobile--opened div:first-child {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px); }
+  .icon-menu-mobile--opened div:nth-child(2) {
+    transform: scale(0);
+    opacity: 0; }
+  .icon-menu-mobile--opened div:last-child {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-9px, -8px); }
