@@ -1,14 +1,16 @@
 $iconMenuMobile-color: black;
+$iconMenuMobile-velocityTransition: 0.4s;
+$iconMenuMobile-width: 36px;
 
 .icon-menu-mobile {
   cursor: pointer;
 
   div {
-    width: 36px;
-    height: 5px;
+    width: $iconMenuMobile-width;
+    height: $iconMenuMobile-width / 7;
     background-color: $iconMenuMobile-color;
     margin: 6px 0;
-    transition: 0.4s;
+    transition: $iconMenuMobile-velocityTransition;
   }
 
   &--opened {
