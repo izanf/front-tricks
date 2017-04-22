@@ -31,16 +31,18 @@ body {
     margin:0;
     padding:0;
     width:100%;
-    height:0;
     position:absolute;
     top:50px;
     left:0;
     background:#EEE;
-    animation:menuExit ease 0.5s;
+
+    &--hide {
+      display:flex;
+      opacity:0;
+      animation:menuExit ease 0.5s;
+    }
 
     &--show {
-      height:300px;
-      overflow:hidden;
       display:flex;
       animation:menuEntry ease 0.5s;
     }
