@@ -3,7 +3,7 @@
   .icon-menu-mobile div {
     width: 36px;
     height: 5.14286px;
-    background-color: black;
+    background-color:#555;
     margin: 6px 0;
     transition: 0.4s; }
   .icon-menu-mobile--opened div:first-child {
