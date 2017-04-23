@@ -1,7 +1,6 @@
 // Select element
 var icon = document.querySelector('.icon-menu-mobile');
 var menu = document.querySelector('.responsive-navbar__items');
-var body = document.querySelector('body');
 
 // Event listner
 icon.addEventListener("click", function() {
